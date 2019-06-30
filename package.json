@@ -1,0 +1,16 @@
+{
+  "name": "@cfn-modules/rds-aurora",
+  "version": "1.0.0",
+  "description": "RDS Aurora",
+  "author": "Michael Wittig <michael@widdix.de>",
+  "license": "Apache-2.0",
+  "keywords": ["cfn-modules", "cfn-modules:RDSAurora"],
+  "homepage": "https://github.com/cfn-modules",
+  "bugs": {
+    "url": "https://github.com/cfn-modules/rds-aurora/issues"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/cfn-modules/rds-aurora.git"
+  }
+}
