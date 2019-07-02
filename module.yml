@@ -407,6 +407,7 @@ Resources:
     Condition: HasAlertTopic
     Type: 'AWS::RDS::EventSubscription'
     Properties:
+      Enabled: true
       EventCategories:
       - failover
       - failure
