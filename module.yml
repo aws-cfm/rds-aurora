@@ -1,5 +1,5 @@
 ---
-# Copyright 2018 widdix GmbH
+# Copyright 2019 Oanh Nguyen
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,7 +14,7 @@
 # limitations under the License.
 AWSTemplateFormatVersion: '2010-09-09'
 Description: 'cfn-modules: RDS Aurora'
-# cfn-modules:implements()
+# cfn-modules:implements(ExposeName, ExposeDnsName)
 Parameters:
   VpcModule:
     Description: 'Stack name of vpc module.'
@@ -53,7 +53,7 @@ Parameters:
     - 'aurora-postgresql-10.4'
     - 'aurora-postgresql-9.6.12'
     - 'aurora-postgresql'
-    Default: 'aurora'
+    Default: 'aurora-mysql'
   DBSnapshotIdentifier:
     Description: 'Optional identifier for the DB cluster snapshot from which you want to restore (leave blank to create an empty cluster).'
     Type: String

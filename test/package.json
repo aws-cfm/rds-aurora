@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "dependencies": {
+    "@aws-cfm/rds-aurora": "file:..",
+    "@cfn-modules/client-sg": "^1.0.0",
+    "@cfn-modules/test": "^0.5.1",
+    "@cfn-modules/vpc": "^1.1.1",
+    "ava": "^2.2.0",
+    "eslint": "^6.1.0"
+  },
+  "scripts": {
+    "test": "eslint . && ava -c 4 *.js"
+  }
+}
