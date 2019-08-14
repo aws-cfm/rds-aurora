@@ -1,9 +1,9 @@
-[![Build Status](https://travis-ci.org/cfn-modules/rds-aurora.svg?branch=master)](https://travis-ci.org/cfn-modules/rds-aurora)
-[![NPM version](https://img.shields.io/npm/v/@cfn-modules/rds-aurora.svg)](https://www.npmjs.com/package/@cfn-modules/rds-aurora)
+[![Build Status](https://travis-ci.org/aws-cfm/rds-aurora.svg?branch=master)](https://travis-ci.org/aws-cfm/rds-aurora)
+[![NPM version](https://img.shields.io/npm/v/@aws-cfm/rds-aurora.svg)](https://www.npmjs.com/package/@aws-cfm/rds-aurora)
 
 # cfn-modules: RDS Aurora
 
-RDS Aurora cluster.
+RDS Aurora with secure firewall configuration, encryption, multi AZ, auto scaling, backup enabled, and alerting.
 
 ## Install
 

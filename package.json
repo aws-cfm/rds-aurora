@@ -1,16 +1,21 @@
 {
-  "name": "@cfn-modules/rds-aurora",
+  "name": "@aws-cfm/rds-aurora",
   "version": "1.0.0",
-  "description": "RDS Aurora",
-  "author": "Michael Wittig <michael@widdix.de>",
+  "description": "RDS Aurora with secure firewall configuration, encryption, multi AZ, auto scaling, backup enabled, and alerting",
+  "author": "Oanh Nguyen <oanhnn.bk@gmail.com>",
   "license": "Apache-2.0",
-  "keywords": ["cfn-modules", "cfn-modules:RDSAurora"],
-  "homepage": "https://github.com/cfn-modules",
+  "keywords": [
+    "cfn-modules",
+    "cfn-modules:ExposeName",
+    "cfn-modules:ExposeDnsName",
+    "cfn-modules:RDSAurora"
+  ],
+  "homepage": "https://github.com/aws-cfm",
   "bugs": {
-    "url": "https://github.com/cfn-modules/rds-aurora/issues"
+    "url": "https://github.com/aws-cfm/rds-aurora/issues"
   },
   "repository": {
     "type" : "git",
-    "url" : "https://github.com/cfn-modules/rds-aurora.git"
+    "url" : "https://github.com/aws-cfm/rds-aurora.git"
   }
 }
