@@ -9,6 +9,7 @@
     "eslint": "^6.1.0"
   },
   "scripts": {
-    "test": "eslint . && ava -c 4 *.js"
+    "lint": "eslint .",
+    "test": "ava -c 4 test.js"
   }
 }

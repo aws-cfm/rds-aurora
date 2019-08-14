@@ -10,7 +10,7 @@ RDS Aurora with secure firewall configuration, encryption, multi AZ, auto scalin
 > Install [Node.js and npm](https://nodejs.org/) first!
 
 ```
-npm i @cfn-modules/rds-aurora
+npm i @aws-cfm/rds-aurora
 ```
 
 ## Usage
@@ -41,7 +41,7 @@ Resources:
         ReadSubDomainNameWithDot: 'read-aurora.' # optional
         PreferredBackupWindow: '09:54-10:24' # optional
         PreferredMaintenanceWindow: 'sat:07:00-sat:07:30' # optional
-      TemplateURL: './node_modules/@cfn-modules/rds-aurora/module.yml'
+      TemplateURL: './node_modules/@aws-cfm/rds-aurora/module.yml'
 
 ```
 
