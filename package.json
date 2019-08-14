@@ -1,6 +1,6 @@
 {
   "name": "@aws-cfm/rds-aurora",
-  "version": "1.0.0",
+  "version": "1.0.0-beta.1",
   "description": "RDS Aurora with secure firewall configuration, encryption, multi AZ, auto scaling, backup enabled, and alerting",
   "author": "Oanh Nguyen <oanhnn.bk@gmail.com>",
   "license": "Apache-2.0",
@@ -15,7 +15,7 @@
     "url": "https://github.com/aws-cfm/rds-aurora/issues"
   },
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/aws-cfm/rds-aurora.git"
+    "type": "git",
+    "url": "https://github.com/aws-cfm/rds-aurora.git"
   }
 }
